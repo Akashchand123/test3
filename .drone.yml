@@ -1,0 +1,8 @@
+kind: pipeline
+name: whoami-example
+
+steps:
+  - name: print-whoami
+    image: alpine
+    commands:
+      - mount
